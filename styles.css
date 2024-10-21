@@ -11,7 +11,7 @@ body {
     min-height: 100vh; /* Ensure the content takes full height */
 }
 
-/* Enhanced title styling with gradient box */
+
 .header-box {
     background: linear-gradient(135deg, #3b82f6, #06b6d4);
     color: white;
@@ -29,17 +29,15 @@ h1 {
     letter-spacing: 1px;
 }
 
-/* Container for search elements */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-top: 30px; /* Adjusted the gap after the header */
+    margin-top: 30px; 
     width: 100%;
 }
 
-/* Wider input box */
 .text_input {
     border: 2px solid #3b82f6;
     border-radius: 10px;
@@ -56,7 +54,6 @@ h1 {
     outline: none;
 }
 
-/* Adjusted search button size */
 .stButton button {
     background-color: #3b82f6;
     color: white;
@@ -73,7 +70,6 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Result box styling aligned to center */
 .results {
     background-color: white;
     border-radius: 10px;
@@ -86,7 +82,6 @@ h1 {
     display: block;
 }
 
-/* Styling for no results found */
 .no-results {
     color: #ff5722;
     font-weight: bold;

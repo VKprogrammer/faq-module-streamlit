@@ -23,8 +23,6 @@ This is the main application file where the following components are defined:
 ### Embedding FAQs: It utilizes the Sentence Transformers model to convert FAQ questions into embeddings for semantic comparison.
 ### Search Functionality: The application provides a search function that computes the cosine similarity between user queries and FAQ embeddings to find the most relevant FAQs.
 ### User Interface: The Streamlit framework is used to create an interactive interface that includes a text input for queries and a display area for results.
-local_css(file_name)
-This function loads an external CSS file to style the application, enhancing the user interface.
 
 ## User Guide
 The FAQ Search System is deployed and can be accessed directly using the following link:
